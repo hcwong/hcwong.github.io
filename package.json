@@ -6,6 +6,7 @@
   "author": "Joshua Wong <joshwonghc@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/webpack-env": "^1.13.8",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "tslint-config-airbnb": "^5.11.1",
@@ -14,6 +15,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "@types/react": "^16.8.7",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "tslint": "^5.13.1"
