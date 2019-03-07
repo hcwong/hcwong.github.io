@@ -1,0 +1,5 @@
+# all log files
+*.log
+
+# yarn.lock
+*.lock
