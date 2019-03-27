@@ -3,3 +3,5 @@
 
 # yarn.lock
 *.lock
+
+/node_modules/*
