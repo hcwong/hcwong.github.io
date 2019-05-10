@@ -1,9 +1,11 @@
 import * as React from 'react';
 
-import { Navbar } from './Navbar';
+import { Banner } from './Banner';
 
 export const Page = () => {
-  return <div>
-    <Navbar/>
-  </div>;
+  return (
+    <div className="d_flex_c h_100 page">
+      <Banner/>
+    </div>
+  );
 };

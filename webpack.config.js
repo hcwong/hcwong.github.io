@@ -3,16 +3,16 @@ const path = require('path');
 
 const config = {
   devServer: {
-    contentBase: path.join(__dirname, './'),
     port: 8000,
     inline: true,
-    hot: true
+    hot: true,
+    publicPath: '/dist/'
   },
   
-  entry: './src/components/App.tsx',
+  entry: ['webpack/hot/dev-server', './src/components/App.tsx'],
 
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "./dist"),
     filename: 'bundle.js'
   },
 
