@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { NavBar } from './Navbar';
+import { Navbar } from './Navbar';
 
 export const Page = () => {
   return <div>

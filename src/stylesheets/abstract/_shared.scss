@@ -1,0 +1,20 @@
+.d_flex_c {
+  @extend %flex;
+  flex-direction: column;
+}
+
+.d_flex_r {
+  @extend %flex;
+  flex-direction: row;
+}
+
+.j_cen {
+  justify-content: center;
+}
+
+.a_cen {
+  align-items: center;
+}
+.w_100 {
+  width: 100%;
+}

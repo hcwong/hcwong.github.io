@@ -7,16 +7,14 @@ import './../stylesheets/main.scss';
 class App extends React.Component<{}, {}> {
   render() {
     return (
-      <div>
-        <Page/>
-      </div>
+      <Page/>
     );
   }
 }
 
 const mountNode = document.getElementById('app');
 ReactDOM.render(
-  <App />,
+  <App/>,
   mountNode,
 );
 

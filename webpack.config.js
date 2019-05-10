@@ -2,10 +2,17 @@ const webpack = require('webpack');
 const path = require('path');
 
 const config = {
-  entry: './src/App.tsx',
+  devServer: {
+    contentBase: path.join(__dirname, './'),
+    port: 8000,
+    inline: true,
+    hot: true
+  },
+  
+  entry: './src/components/App.tsx',
 
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, "dist"),
     filename: 'bundle.js'
   },
 
@@ -15,6 +22,8 @@ const config = {
   },
 
   target: 'web',
+
+  mode: "production",
 
   module: {
     rules: [
