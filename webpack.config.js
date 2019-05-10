@@ -9,7 +9,7 @@ const config = {
     publicPath: '/dist/'
   },
   
-  entry: ['webpack/hot/dev-server', './src/components/App.tsx'],
+  entry: ['./src/components/App.tsx'],
 
   output: {
     path: path.resolve(__dirname, "./dist"),
