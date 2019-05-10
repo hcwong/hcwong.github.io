@@ -17,7 +17,3 @@ ReactDOM.render(
   <App/>,
   mountNode,
 );
-
-if (module.hot) {
-  module.hot.accept();
-}
