@@ -1,0 +1,49 @@
+.about {
+  @extend .d_flex_r;
+  @extend .w_100;
+  @extend .a_cen;
+  @extend .j_cen;
+
+  height: 100%;
+  position: relative;
+
+  & > #about_pic {
+    border: 1px solid #5f5454;
+    border-radius: 50%;
+    height: 60%;
+    position: relative;
+    left: 13%;
+  }
+
+  & > .next_section {
+    bottom: 5%;    
+    cursor: pointer;
+    height: 16px;
+    left: 50%;
+    position: absolute;
+  }
+
+  & > div {
+    @extend .d_flex_c;
+    @extend .w_100;
+
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    left: 25%;
+    position: relative;
+    top: 40%;
+
+    // Modifying H1 here
+    & > h2 {
+      color: #252525;
+      font-size: 3em;
+      margin-top: 0px;
+      margin-bottom: 12px;
+    }
+
+    & > h3 {
+      font-size: 1.2em;
+      color: gray;
+    }
+  }
+}

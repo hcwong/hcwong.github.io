@@ -8,10 +8,12 @@
 
 // Base 
 @import 
-  'base/base';
+  'base/base',
+  'base/fonts';
 
 // Components
 @import 
+  'components/about',
   'components/nav';
 
 // Layout

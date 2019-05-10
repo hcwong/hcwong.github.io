@@ -1,12 +1,18 @@
 html {
-  box-sizing: border-box;
   font-size: 1em;
   height: 100vh;
   overflow-y: scroll;
 }
 
 body {
+  background: #fafafa;
   height: 100%;
+  margin: 0px;
+}
+
+// Standardize Box Sizing
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 #app {

@@ -9,8 +9,9 @@ export const Nav = (props: NavProps) => {
     .map((option: string) => <div className="nav_option">{option}</div>);
 
   return (
-    <div className="d_flex_r j_cen a_cen w_100">
-      {options}
+    <div className="nav">
+      <p>Joshua Wong</p>
+      <div>{options}</div>
     </div>
   );
 };

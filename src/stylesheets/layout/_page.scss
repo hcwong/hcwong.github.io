@@ -1,4 +1,7 @@
-.page {
-  margin: 8% 6%;
-  border: #595959 1px solid;
+.page_body {
+  @extend .d_flex_c;
+  @extend .w_100;
+
+  height: 100%;
+  margin-top: 72px;
 }
