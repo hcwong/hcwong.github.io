@@ -6,4 +6,8 @@
   min-height: 40vh;
   position: relative;
   background-color: #e6e2e2;
+
+  & > .section-title {
+    margin-bottom: 10vh;
+  }
 }

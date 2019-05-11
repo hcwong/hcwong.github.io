@@ -1,3 +1,10 @@
 %flex {
   display: flex;
 }
+
+%flex_c_100_cen {
+  @extend .d_flex_c;
+  @extend .w_100;
+  @extend .a_cen;
+  @extend .j_cen;
+}

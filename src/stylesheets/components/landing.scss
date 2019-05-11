@@ -6,9 +6,8 @@
   background-size:     cover;                      
   background-repeat:   no-repeat;
   
-  @extend .d_flex_r;
+  @extend .d_flex_c;
   @extend .a_cen;
-  @extend .j_cen;
 
   min-height: 100vh;
 
@@ -18,5 +17,10 @@
     font-family: 'Inconsolata', monospace;
     font-weight: 500;
     position: relative;
+    top: 35%;
+  }
+
+  & > .next_section {
+    top: 70vh;
   }
 }

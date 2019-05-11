@@ -8,7 +8,7 @@ export const LandingPage = () => {
       <p> console.log("testing123"); </p>
       <NextArrow
         color="grey"
-        href="about"
+        href="#about"
       />
     </div>
   );
