@@ -5,8 +5,10 @@ import { NextArrow } from './NextArrow';
 export const LandingPage = () => {
   return (
     <div className="landing">
-      <p>Hello and welcome to my webpage</p>
-      <NextArrow/>
+      <p> console.log("testing123"); </p>
+      <NextArrow
+        color="grey"
+      />
     </div>
   );
 };

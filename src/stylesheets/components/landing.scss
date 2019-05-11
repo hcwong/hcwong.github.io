@@ -1,5 +1,5 @@
 .landing {
-  background-color: rgba(0, 0, 0, .55);
+  background-color: rgba(0, 0, 0, .8);
   background-blend-mode: darken;
   background-image: 
     url("/dist/assets/background.JPG");
@@ -13,9 +13,9 @@
   min-height: 100vh;
 
   & > p {
-    color: #f5e0e0;
+    color: #67f70e;
     font-size: 3em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-weight: 500;
     position: relative;
   }

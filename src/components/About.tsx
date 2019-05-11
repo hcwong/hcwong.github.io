@@ -5,14 +5,17 @@ import { NextArrow } from './NextArrow';
 export const About = () => {
   return (
     <div className="about">
-      <img src="dist/assets/me_pic.png" id="about_pic"/>
-
-      <div className="d_flex_c">
-        <h2> Joshua Wong </h2>
-        <h3> CS Sophomore at NUS (Page WIP)</h3>
+      <div className="section-title">About</div>
+      <div className="description">
+        I'm a Computer Science Sophomore at the National University of Singapore.
+        My current interests include full-stack development, though I'm looking 
+        to explore other areas. In school, I'm also a member of NUS Hackers. Because studying
+        is boring, but hacking is not.
       </div>
 
-      <NextArrow/>
+      <NextArrow
+        color="white"
+      />
     </div>
   );
 };

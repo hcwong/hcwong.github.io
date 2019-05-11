@@ -1,39 +1,9 @@
 .about {
-  @extend .d_flex_r;
+  @extend .d_flex_c;
   @extend .w_100;
   @extend .a_cen;
-  @extend .j_cen;
 
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
-
-  & > #about_pic {
-    border: 1px solid #5f5454;
-    border-radius: 50%;
-    height: 60%;
-    position: relative;
-    left: 13%;
-  }
-
-  & > div {
-    @extend .d_flex_c;
-    @extend .w_100;
-
-    font-family: 'Lato', sans-serif;
-    left: 25%;
-    position: relative;
-
-    // Modifying H1 here
-    & > h2 {
-      color: #252525;
-      font-size: 3em;
-      margin-top: 0px;
-      margin-bottom: 12px;
-    }
-
-    & > h3 {
-      font-size: 1.2em;
-      color: gray;
-    }
-  }
+  background-color: #e6e2e2;
 }

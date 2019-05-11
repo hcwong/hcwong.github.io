@@ -4,7 +4,33 @@
 }
 
 @font-face {
-  font-family: 'Lato', sans-serif;
-  src:  url('https://fonts.googleapis.com/css?family=Lato');
+  font-family: 'Archivo', sans-serif;
+  src:  url('https://fonts.googleapis.com/css?family=Archivo');
+}
 
+@font-face {
+  font-family: 'Cormorant', serif;
+  src: url('https://fonts.googleapis.com/css?family=Cormorant');
+}
+
+.section-title {
+  color: #202124;
+  font-size: 2.5em;
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  top: 10%;
+}
+
+.description {
+  color: #202124;
+  font-size: 1.2em;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 200;
+  line-height: 1.5em;
+  padding: 0% 6%;
+  position: relative;
+  text-align: center;
 }
