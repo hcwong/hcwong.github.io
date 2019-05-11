@@ -40,14 +40,14 @@ export class Nav extends React.Component<NavProps, NavState>{
     const navClass = this.state.isLanding ? 'nav' : 'nav bg_dark';
     const options = this.props.options
       .map((option: string) =>
-        <div className="nav_option">
+        <a className="nav_option" href={`#${option.toLowerCase()}`}>
           {option}
-        </div>,
+        </a>,
       );
 
     return (
       <div className={navClass}>
-        <p>{this.props.title}</p>
+        <a className="home" href="#landing">{this.props.title}</a>
         <div>{options}</div>
       </div>
     );

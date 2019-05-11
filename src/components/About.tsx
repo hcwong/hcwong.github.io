@@ -4,7 +4,7 @@ import { NextArrow } from './NextArrow';
 
 export const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="section-title">About</div>
       <div className="description">
         I'm a Computer Science Sophomore at the National University of Singapore.
@@ -15,6 +15,7 @@ export const About = () => {
 
       <NextArrow
         color="white"
+        href="#hobbies"
       />
     </div>
   );
