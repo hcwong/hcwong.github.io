@@ -3,6 +3,7 @@ import * as React from 'react';
 import { About } from './About';
 import { LandingPage } from './LandingPage';
 import { Hobbies } from './Hobbies';
+import { Contact } from './Contact';
 
 export const PageBody = () => {
   return (
@@ -10,6 +11,7 @@ export const PageBody = () => {
       <LandingPage/>
       <About/>
       <Hobbies/>
+      <Contact/>
     </div>
   );
 };

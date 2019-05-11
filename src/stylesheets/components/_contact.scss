@@ -1,0 +1,14 @@
+.contact {
+  @extend .d_flex_r;
+  @extend .a_cen;
+  @extend .j_cen;
+
+  background-color: #202124;
+  min-height: 8vh;
+
+  & > a {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+  }
+}

@@ -6,7 +6,7 @@ import { HobbiesBox } from './HobbiesBox';
 export const Hobbies = () => {
   return (
     <div className="hobbies" id="hobbies">
-      <div className="section-title">Hobbies</div>
+      <div className="section-title">I pursue a few hobbies and interests</div>
       <div className="d_flex_r w_100 j_cen">
         <HobbiesBox
           imgRef="/dist/assets/futbol-solid.svg"
@@ -25,7 +25,7 @@ export const Hobbies = () => {
           imgRef="/dist/assets/book-open-solid.svg"
           title="Reading"
           desc="I enjoy economics and keep up with current affairs. I also enjoy
-          modern history and long Wikipedia articles"
+          modern history and long Wikipedia articles."
         />
       </div>
 

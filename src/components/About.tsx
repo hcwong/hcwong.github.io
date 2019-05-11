@@ -5,7 +5,7 @@ import { NextArrow } from './NextArrow';
 export const About = () => {
   return (
     <div className="about" id="about">
-      <div className="section-title">About</div>
+      <div className="section-title">More about me</div>
       <div className="description">
         I'm a Computer Science Sophomore at the National University of Singapore.
         My current interests include full-stack development, though I'm looking 
