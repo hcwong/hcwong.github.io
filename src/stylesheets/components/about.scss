@@ -4,7 +4,7 @@
   @extend .a_cen;
   @extend .j_cen;
 
-  height: 100%;
+  min-height: 100vh;
   position: relative;
 
   & > #about_pic {
@@ -15,23 +15,13 @@
     left: 13%;
   }
 
-  & > .next_section {
-    bottom: 5%;    
-    cursor: pointer;
-    height: 16px;
-    left: 50%;
-    position: absolute;
-  }
-
   & > div {
     @extend .d_flex_c;
     @extend .w_100;
 
     font-family: 'Lato', sans-serif;
-    height: 100%;
     left: 25%;
     position: relative;
-    top: 40%;
 
     // Modifying H1 here
     & > h2 {

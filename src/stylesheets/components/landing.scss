@@ -1,0 +1,22 @@
+.landing {
+  background-color: rgba(0, 0, 0, .55);
+  background-blend-mode: darken;
+  background-image: 
+    url("/dist/assets/background.JPG");
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  
+  @extend .d_flex_r;
+  @extend .a_cen;
+  @extend .j_cen;
+
+  min-height: 100vh;
+
+  & > p {
+    color: #f5e0e0;
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    position: relative;
+  }
+}
