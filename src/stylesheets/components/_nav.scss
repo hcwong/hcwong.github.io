@@ -4,8 +4,6 @@
   @extend .w_100;
   @extend .p_fixed;
 
-  // box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
-  // background-color: #202124; 
   font-family: 'Inconsolata', monospace; 
   justify-content: space-between;
   padding-top: 8px;
@@ -33,6 +31,11 @@
     right: 10%;
     width: auto;
   }
+}
+
+.bg_dark {
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+  background-color: #202124; 
 }
 
 .nav_option {
