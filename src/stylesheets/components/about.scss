@@ -1,13 +1,22 @@
 .about {
-  @extend .d_flex_c;
+  @extend .d_flex_r;
   @extend .w_100;
+  @extend .h_100;
   @extend .a_cen;
+  @extend .j_cen;
 
-  min-height: 40vh;
   position: relative;
-  background-color: #e6e2e2;
 
-  & > .section-title {
-    margin-bottom: 10vh;
-  }
+  padding: 32px;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  margin-right: 36px;
+}
+
+.description {
+  width: 60%;
 }

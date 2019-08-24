@@ -1,19 +1,17 @@
 import * as React from 'react';
 
-import { PageBody } from './PageBody';
-import { Nav } from './Nav';
+import { Footer } from './Footer';
 
-// export const Page = () => {
-//   const options = ['About', 'Hobbies', 'Contact'];
+interface Props {children?: any; }
 
-//   return (
-//     <div className="d_flex_c h_100 page">
-//       <Nav
-//         title="Joshua Wong"
-//         options={options}
-//       />
-//       <PageBody/>
-//     </div>
-//   );
-// };
-
+// From: https://github.com/Microsoft/TypeScript/issues/6471
+export class Page extends React.PureComponent<Props, {}> {
+  render() {
+    return (
+      <div className= "page">
+        { this.props.children }
+        <Footer/>
+      </div>
+    );
+  }
+}

@@ -11,11 +11,11 @@ export class Header extends React.PureComponent<{}, State> {
   }
 
   tabs: Tab[] = [
-    { tabName: 'About', link: '/' },
-    { tabName: 'Work', link: '/work/' },
-    { tabName: 'Interests', link: '/interests/' },
+    { tabName: 'ABOUT', link: '/' },
+    { tabName: 'CODING', link: '/work/' },
+    { tabName: 'INTERESTS', link: '/interests/' },
   ];
-  // Slice 1 to remove the leading and any trailing slash
+
   currentPath = window.location.pathname;
 
   renderTab = (tab: Tab, index: number) => {
