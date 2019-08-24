@@ -9,7 +9,7 @@ export const Interests = () => {
         <div className="description pageText">
           As of now, I have an interest in algorithms, mainly because I find
           the proofs to be very elegant. Because of my 4 years studying French,
-          I might algorithmstake more Programming Language classes, though I
+          I might take more Programming Language classes, though I
           do not have much experience in this area.
 
           <br/>
