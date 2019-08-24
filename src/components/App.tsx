@@ -1,13 +1,16 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 
-import { Page } from './Page';
+import { Header } from './Header';
 import './../stylesheets/main.scss';
 
 class App extends React.Component<{}, {}> {
   render() {
     return (
-      <Page/>
+      <Router>
+        <Header/>
+      </Router>
     );
   }
 }

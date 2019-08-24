@@ -10,6 +10,7 @@
     "build": "webpack"
   },
   "devDependencies": {
+    "@types/react-router-dom": "^4.3.5",
     "@types/webpack-env": "^1.13.8",
     "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^2.1.1",
@@ -28,6 +29,7 @@
     "@types/react-dom": "^16.8.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-router-dom": "^5.0.1",
     "tslint": "^5.13.1",
     "typescript": "^3.3.4000"
   }
