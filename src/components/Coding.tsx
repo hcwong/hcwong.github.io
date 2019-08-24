@@ -24,7 +24,7 @@ export const Coding = () => {
           <a href="https://overreacted.io/things-i-dont-know-as-of-2018/">Dan Abramov's post</a>
           <ul>
             <li>Get into Haskell to properly learn functional</li>
-            <li>Write more C, C++ code, given that I have written &#60
+            <li>Write more C, C++ code, given that I have written &#60;
                 500 LoC in my life, which is kinda embarassing</li>
             <li>Learn more backend stuff, because while I can set up Docker instances in the cloud,
               I really haven't tried working with a massive API at scale
