@@ -1,5 +1,5 @@
 #app {
-  padding: 16px 24px;
+  padding: 0 16px 24px;
 }
 
 .page {
@@ -8,6 +8,5 @@
   @extend .h_100;
   @extend .j_cen;
 
-  margin-top: 200px;
-  height: 60%;
+  margin-top: 240px;
 }

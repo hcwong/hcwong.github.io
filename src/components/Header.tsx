@@ -12,7 +12,7 @@ export class Header extends React.PureComponent<{}, State> {
 
   tabs: Tab[] = [
     { tabName: 'ABOUT', link: '/' },
-    { tabName: 'CODING', link: '/work/' },
+    { tabName: 'CODING', link: '/coding/' },
     { tabName: 'INTERESTS', link: '/interests/' },
   ];
 

@@ -1,13 +1,12 @@
 .about {
   @extend .d_flex_r;
   @extend .w_100;
-  @extend .h_100;
   @extend .a_cen;
   @extend .j_cen;
 
   position: relative;
 
-  padding: 32px;
+  padding-bottom: 64px;
 }
 
 .profile {

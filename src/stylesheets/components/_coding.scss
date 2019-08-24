@@ -1,7 +1,12 @@
-.interests {
+.coding {
   @extend .d_flex_c;
   @extend .a_cen;
   @extend .j_cen;
 
   padding-bottom: 64px;
+
+  & a {
+    text-decoration: underline;
+    color: blue;
+  }
 }

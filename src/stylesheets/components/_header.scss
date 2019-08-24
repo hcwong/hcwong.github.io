@@ -1,8 +1,10 @@
 .header {
   padding: 24px;
   text-align: center;
-  height: 160px;
   font-family: 'Inconsolata', monospace;
+  background-color: #fafafa;
+  z-index: 3;
+  height: 220px;
 }
 
 .header_tab {
