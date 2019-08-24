@@ -7,7 +7,7 @@ export const About = () => {
     <Page>
       <div className="about">
         <img className="profile" src="/dist/assets/profile.jpg"/>
-        <div className="description">
+        <div className="description descriptionAbout">
           I'm a Computer Science Sophomore at the National University of Singapore.
           My current interests include full-stack development, though I'm looking
           to explore other areas. In school, I'm also a member of NUS Hackers.

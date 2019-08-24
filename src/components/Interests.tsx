@@ -6,7 +6,7 @@ export const Interests = () => {
   return (
     <Page>
       <div className="interests">
-        <div className="description">
+        <div className="description pageText">
           As of now, I have an interest in algorithms, mainly because I find
           the proofs to be very elegant. Because of my 4 years studying French,
           I might algorithmstake more Programming Language classes, though I

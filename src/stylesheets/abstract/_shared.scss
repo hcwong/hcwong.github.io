@@ -27,3 +27,9 @@
 .p_fixed {
   position: fixed;
 }
+
+.pageText {
+  @media screen and (min-width: $desktopMinWidth) {
+    width: 60%;
+  }
+}
