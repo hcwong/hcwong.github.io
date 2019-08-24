@@ -40,7 +40,7 @@ export const Coding = () => {
           I've also had the great opportunity to intern at the following companies, during which
           I have learnt a lot from the engineers.
           <ol>
-            <li>Carousell - Software Engineering Intern (Web) (Maay 2019-Present)</li>
+            <li>Carousell - Software Engineering Intern (Web) (May 2019-Present)</li>
             <li>Galenco Science - Software Engineering Intern (Dec 2018-Jan 2019)</li>
             <li>Rakuten Viki - Software Engineering Intern (May 2018-Aug 2018)</li>
             <li>Zumata - Software Engineering Intern (Jan 2018 - Apr 2018)</li>
