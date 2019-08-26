@@ -29,6 +29,7 @@
 }
 
 .pageText {
+  @extend .d_flex_c;
   @media screen and (min-width: $desktopMinWidth) {
     width: 60%;
   }
