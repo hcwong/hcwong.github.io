@@ -28,6 +28,10 @@
   position: fixed;
 }
 
+.p_rel {
+  position: relative;
+}
+
 .pageText {
   @extend .d_flex_c;
   @media screen and (min-width: $desktopMinWidth) {

@@ -5,7 +5,7 @@ import { Page } from './Page';
 export const About = () => {
   return (
     <Page>
-      <div className="about">
+      <div className="about p_rel">
         <img className="profile" src="/dist/assets/profile.jpg"/>
         <div className="description descriptionAbout">
           I'm a Computer Science Sophomore at the National University of Singapore.

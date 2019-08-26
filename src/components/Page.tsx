@@ -12,7 +12,7 @@ export class Page extends React.PureComponent<Props, {}> {
 
   render() {
     return (
-      <div className= "page">
+      <div className= "page p_rel">
         { this.props.children }
         <Footer/>
       </div>

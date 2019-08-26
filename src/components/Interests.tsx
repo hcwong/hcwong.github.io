@@ -5,7 +5,7 @@ import { Page } from './Page';
 export const Interests = () => {
   return (
     <Page>
-      <div className="interests">
+      <div className="interests p_rel">
         <div className="description pageText">
           As of now, I have an interest in algorithms, mainly because I find
           the proofs to be very elegant. Because of my 4 years studying French,

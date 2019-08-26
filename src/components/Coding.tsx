@@ -5,7 +5,7 @@ import { Page } from './Page';
 export const Coding = () => {
   return (
     <Page>
-      <div className="coding">
+      <div className="coding p_rel">
         <div className="description pageText">
           I'm still currently most interested in Full-stack development, given
           that the majority of my work has been in that area. At the same time, I would
