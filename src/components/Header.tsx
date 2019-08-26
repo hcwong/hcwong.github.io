@@ -34,7 +34,7 @@ export class Header extends React.PureComponent<{}, State> {
 
   render() {
     return (
-      <div className="d_flex_c w_100 p_fixed header">
+      <div className="d_flex_c w_100 header">
         <div className="title">Joshua Wong</div>
         {/* TODO: Can consider refactoring out into tab component in the future if necessary */}
         <div className="d_flex_r w_100 j_cen a_cen">

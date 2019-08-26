@@ -1,18 +1,22 @@
 .header {
+  margin-bottom: 24px;
   padding: 24px;
   text-align: center;
   font-family: 'Inconsolata', monospace;
   background-color: #fafafa;
   z-index: 3;
-  height: 220px;
 }
 
 .header_tab {
-  margin-right: 5%; 
+  margin-right: 16px; 
   text-decoration: none;
 
   &:last-child {
     margin-right: 0;
+  }
+
+  @media screen and (min-width: $desktopMinWidth) {
+    margin-right: 5%;
   }
 
   &:hover {
