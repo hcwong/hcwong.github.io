@@ -12,7 +12,7 @@ class App extends React.Component<{}, {}> {
   render() {
     return (
       <Router>
-        <div className="d_flex_c h_100">
+        <div className="d_flex_c">
           <Header/>
           <Route exact path="/" component={About} />
           <Route path="/coding" component={Coding} />
